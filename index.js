@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { cyan, green } = require('chalk')
 const express = require('express')
 const { readdirSync } = require('fs')
 const { resolve, join } = require('path')
@@ -19,6 +20,6 @@ app.listen(appPort, (err) => {
     process.exit(1)
   }
 
-  console.log(`Started on port: ${appPort}`)
-  console.log(`Serving: ${directoryPath}`)
+  console.log(`${green('Started')} on port: ${cyan(appPort)}`)
+  console.log(`Serving: ${cyan(directoryPath)}`)
 })

@@ -1,16 +1,29 @@
 {
-  "name": "static-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Dean Merchant <deanmerchant@gmail.com> (http://github.com/dean177)",
+  "bin": {
+    "serve": "index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2",
-    "yargs": "^7.0.2"
-  }
+    "chalk": "1.1.3",
+    "express": "4.15.2",
+    "yargs": "7.0.2"
+  },
+  "description": "Serve a directory of files or a static site with minimal fuss",
+  "keywords": [
+    "static",
+    "serve",
+    "http",
+    "html"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "static-website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dean177/react-justified-layout.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "1.0.0"
 }
