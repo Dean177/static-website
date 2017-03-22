@@ -10,5 +10,10 @@ By default the 'public' directory will be served on port 8000, this is customiza
 ./index.js --path /path/to/directory --port 3210
 ```
 
+or on Windows
+```
+./index.js --path "C:\path\to\directory" --port 4321
+```
+
 All the files, folders and subfolders will be available and if there is an index.html files present in the root folder, that will be served up at `'/'`
  
